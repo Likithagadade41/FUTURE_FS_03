@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Melt & Swirl | Ice Cream Parlour</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <span>MELT</span>
+      <small>&</small>
+      <span>SWIRL</span>
+    </div>
+
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#flavours">Flavours</a>
+      <a href="#story">Our Story</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
+    <a href="#build" class="nav-button">Build a Scoop</a>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">HANDCRAFTED ICE CREAM · EVERY DAY</p>
+
+      <h1>
+        Scoop
+        <span>happiness.</span>
+      </h1>
+
+      <p class="hero-text">
+        Creamy, dreamy and made to brighten your day.
+        Discover flavours worth melting for.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#flavours" class="primary-button">Explore Flavours</a>
+        <a href="#build" class="secondary-button">Build Your Scoop</a>
+      </div>
+
+    </div>
+
+    <div class="hero-badge">
+      <span>100%</span>
+      <small>HAPPINESS</small>
+    </div>
+
+    <div class="scroll-text">
+      SCROLL TO DISCOVER ↓
+    </div>
+
+  </section>
+
+
+  <!-- INTRO -->
+  <section class="intro">
+
+    <p class="section-label">WELCOME TO MELT & SWIRL</p>
+
+    <h2>
+      A little scoop.
+      <br>
+      <em>A lot of joy.</em>
+    </h2>
+
+    <p>
+      We believe ice cream isn't just dessert.
+      It's a pause in a busy day, a reason to smile,
+      and sometimes the best part of your evening.
+    </p>
+
+  </section>
+
+
+  <!-- FLAVOURS -->
+<section class="flavours" id="flavours">
+
+  <div class="section-heading">
+    <div>
+      <p class="section-label">OUR FAVOURITES</p>
+      <h2>
+        Flavours worth<br>
+        <em>coming back for.</em>
+      </h2>
+    </div>
+
+    <p class="heading-description">
+      From timeless classics to playful creations,
+      every scoop is crafted for maximum deliciousness.
+    </p>
+  </div>
+
+
+  <div class="flavour-grid">
+
+    <!-- STRAWBERRY -->
+   <article class="flavour-card strawberry">
+  <div class="flavour-image">
+    <img
+      src="https://static.wixstatic.com/media/2ce919_84147475da8b4f7d94a22278417853b6~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg"
+      alt="Strawberry ice cream">
+  </div>
+
+  <div class="flavour-info">
+    <span>01</span>
+    <h3>Strawberry Bliss</h3>
+    <p>Fresh strawberry · Cream · Berry swirl</p>
+    <strong>₹160</strong>
+  </div>
+</article>
+
+    </article>
+
+
+    <!-- CHOCOLATE -->
+    <article class="flavour-card chocolate">
+
+      <div class="flavour-image">
+        <img
+          src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=900&q=85"
+          alt="Chocolate ice cream">
+      </div>
+
+      <div class="flavour-info">
+        <span>02</span>
+        <h3>Belgian Chocolate</h3>
+        <p>Dark cocoa · Chocolate flakes · Fudge</p>
+        <strong>₹180</strong>
+      </div>
+
+    </article>
+
+
+    <!-- PISTACHIO -->
+    <article class="flavour-card pistachio">
+
+      <div class="flavour-image">
+  <img
+    src="https://assets.afcdn.com/recipe/20160317/12800_w1024h1024c1cx1872cy2808.jpg"
+    alt="Pistachio ice cream">
+</div>
+
+      <div class="flavour-info">
+        <span>03</span>
+        <h3>Pistachio Dream</h3>
+        <p>Roasted pistachio · Cream · Crunch</p>
+        <strong>₹190</strong>
+      </div>
+
+    </article>
+
+
+    <!-- SALTED CARAMEL -->
+    <article class="flavour-card caramel">
+
+      <div class="flavour-image">
+        <img
+          src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=900&q=85"
+          alt="Salted caramel ice cream">
+      </div>
+
+      <div class="flavour-info">
+        <span>04</span>
+        <h3>Salted Caramel</h3>
+        <p>Golden caramel · Sea salt · Crunch</p>
+        <strong>₹175</strong>
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+  <!-- BUILD YOUR SCOOP -->
+  <section class="builder" id="build">
+
+    <div class="builder-content">
+
+      <p class="section-label">MAKE IT YOURS</p>
+
+      <h2>
+        Build your
+        <br>
+        <em>perfect scoop.</em>
+      </h2>
+
+      <p>
+        Pick your favourite flavour, add a topping,
+        and create a little masterpiece.
+      </p>
+
+      <div class="builder-options">
+
+        <div class="option">
+          <label>CHOOSE YOUR FLAVOUR</label>
+
+          <select id="flavourSelect">
+            <option value="Strawberry Bliss">Strawberry Bliss</option>
+            <option value="Belgian Chocolate">Belgian Chocolate</option>
+            <option value="Pistachio Dream">Pistachio Dream</option>
+            <option value="Salted Caramel">Salted Caramel</option>
+          </select>
+        </div>
+
+
+        <div class="option">
+          <label>ADD A TOPPING</label>
+
+          <select id="toppingSelect">
+            <option value="No topping">No topping</option>
+            <option value="Brownie Bits">Brownie Bits</option>
+            <option value="Choco Chips">Choco Chips</option>
+            <option value="Caramel Drizzle">Caramel Drizzle</option>
+            <option value="Rainbow Sprinkles">Rainbow Sprinkles</option>
+          </select>
+        </div>
+
+      </div>
+
+      <button class="build-button" onclick="createScoop()">
+        CREATE MY SCOOP ✦
+      </button>
+
+      <div id="scoopResult" class="scoop-result">
+        Your perfect scoop will appear here.
+      </div>
+
+    </div>
+
+
+    <div class="builder-visual">
+
+      <div class="ice-cream-stack">
+
+        <div class="scoop scoop-one"></div>
+        <div class="scoop scoop-two"></div>
+        <div class="scoop scoop-three"></div>
+
+        <div class="cone"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- STORY -->
+<section class="story" id="story">
+
+  <div class="story-image">
+
+    <img
+      src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=1200&q=85"
+      alt="Handcrafted ice cream">
+
+    <div class="story-image-note">
+      <span>MADE FRESH</span>
+      <span>EVERY DAY</span>
+    </div>
+
+  </div>
+
+
+  <div class="story-content">
+
+    <p class="section-label">OUR STORY</p>
+
+    <h2>
+      It started with
+      <br>
+      <em>one perfect scoop.</em>
+    </h2>
+
+    <p class="story-intro">
+      Melt & Swirl was born from a simple belief —
+      the best moments don't need a reason.
+      Sometimes, all you need is your favourite
+      ice cream and someone to share it with.
+    </p>
+
+    <p>
+      We started with a small collection of handcrafted
+      flavours, made with creamy ingredients, real fruits,
+      rich chocolate and a whole lot of curiosity.
+    </p>
+
+    <p>
+      Today, every scoop we serve is still made with the
+      same idea: keep it fresh, keep it joyful, and give
+      people a reason to slow down and enjoy the moment.
+    </p>
+
+    <a href="#flavours" class="text-link">
+      Discover our flavours →
+    </a>
+
+  </div>
+
+</section>
+
+  <!-- QUOTE -->
+  <section class="quote">
+
+    <div class="quote-mark">“</div>
+
+    <h2>
+      Life is short.
+      <br>
+      <em>Eat the ice cream.</em>
+    </h2>
+
+    <p>— Melt & Swirl</p>
+
+  </section>
+
+
+  <!-- VISIT -->
+  <section class="visit" id="visit">
+
+    <div>
+
+      <p class="section-label">COME FIND US</p>
+
+      <h2>
+        Your next
+        <br>
+        <em>happy place.</em>
+      </h2>
+
+    </div>
+
+
+    <div class="visit-details">
+
+      <div>
+        <span>ADDRESS</span>
+        <p>24 Market Street<br>Hubballi, Karnataka</p>
+      </div>
+
+      <div>
+        <span>OPENING HOURS</span>
+        <p>Monday – Sunday<br>11:00 AM – 10:30 PM</p>
+      </div>
+
+      <div>
+        <span>SAY HELLO</span>
+        <p>hello@meltandswirl.com</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-logo">
+      MELT <span>&</span> SWIRL
+    </div>
+
+    <p>Scoop happiness. One swirl at a time.</p>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#flavours">Flavours</a>
+      <a href="#story">Story</a>
+      <a href="#visit">Visit</a>
+    </div>
+
+    <small>© 2026 Melt & Swirl. Crafted with love.</small>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
